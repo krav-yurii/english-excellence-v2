@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/english-excellence-v2/",
     "preview": "vite preview"
   },
   "keywords": [],
