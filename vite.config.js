@@ -10,6 +10,7 @@ const inputFiles = fg.sync('./src/*.html').reduce((acc, file) => {
 }, {});
 
 export default defineConfig({
+  base: '/english-excellence-v2/',
   root: 'src',
   build: {
     rollupOptions: {
