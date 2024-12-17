@@ -1,32 +1,13 @@
-/* Reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
+@import url('./base/colors.css');
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+@import url('./utils/reset.css');
 
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+@import url('./layout/01-header.css');
+@import url('./layout/02-hero.css');
+@import url('./layout/03-about-us.css');
+@import url('./layout/04-our-lessons.css');
+@import url('./layout/05-proposal.css');
+@import url('./layout/06-our-teachers.css');
+@import url('./layout/07-leave.css');
+@import url('./layout/08-reviews.css');
+@import url('./layout/09-footer');
