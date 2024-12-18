@@ -1,8 +1,7 @@
 @import url('./base/colors.css');
+@import url('./base/common.css');
 
 @import url('./utils/reset.css');
-
-@import url('./base/blocks.css');
 
 @import url('./layout/01-header.css');
 @import url('./layout/02-hero.css');
