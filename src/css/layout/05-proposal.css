@@ -330,7 +330,10 @@
   }
 
   .proposal__block--decoration::after {
-    transform: rotate(7deg);
-    width: 1011px;
+    transform: rotate(9deg);
+    width: 1000px;
+    height: 400px;
+    left: 12px;
+    top: 30px;
   }
 }
