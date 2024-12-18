@@ -1,0 +1,29 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: var(--color-white);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 335px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
