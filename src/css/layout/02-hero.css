@@ -8,11 +8,6 @@
 
 .hero__section > .container {
   color: var(--color-white);
-  /* TODO: extract padding to common.css? */
-  padding: 0 20px;
-  @media (min-width: 768px) {
-    padding: 0 32px;
-  }
 }
 
 .hero__section > .container > .hero__container_wrapper {
@@ -63,6 +58,28 @@
     height: 857px;
     border-radius: 30px;
   }
+  @media (min-width: 1280px) {
+    background-image: linear-gradient(
+        95.97deg,
+        rgba(0, 0, 0, 0.4) 36.36%,
+        rgba(0, 0, 0, 0) 51.43%
+      ),
+      url('../img/hero-desktop-1x.jpg');
+    @media screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx),
+      screen and (min-device-pixel-ratio: 2) {
+      background-image: linear-gradient(
+          95.97deg,
+          rgba(0, 0, 0, 0.4) 36.36%,
+          rgba(0, 0, 0, 0) 51.43%
+        ),
+        url('../img/hero-desktop-2x.jpg');
+    }
+
+    padding: 0 64px;
+    width: 1152px;
+    height: 629px;
+  }
 }
 
 .hero__title {
@@ -77,6 +94,10 @@
     font-size: 60px;
     line-height: 70px;
     max-width: 488px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 164px;
+    max-width: 564px;
   }
 }
 
@@ -93,6 +114,8 @@
   font-weight: 700;
   line-height: 24px;
   padding: 14px 78px;
+  text-wrap: nowrap;
+
   @media (min-width: 768px) {
     padding: 16px 64px;
     font-size: 18px;
