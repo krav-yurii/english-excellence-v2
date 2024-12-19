@@ -1,2 +1,18 @@
 .reviews__section {
+    margin-bottom: 80px;
+}
+
+.reviews__title--block {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__title {
+    color: var(--color-black);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -0.64px;
 }
