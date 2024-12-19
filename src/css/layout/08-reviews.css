@@ -53,9 +53,11 @@
         line-height: 1.2;
     }
 }
-.reviews__title--highlight{
+
+.reviews__title--highlight {
     position: relative;
 }
+
 .reviews__title--highlight:after {
     content: "";
     position: absolute;
@@ -81,6 +83,7 @@
     .reviews__title--highlight:after {
         height: 20px;
     }
+
     .reviews__title--description {
         font-size: 18px;
         line-height: 1.66;
@@ -106,6 +109,7 @@
     .reviews__content--list {
         gap: 32px;
     }
+
     .reviews__content--list--item {
         width: 336px;
         height: 326px;
