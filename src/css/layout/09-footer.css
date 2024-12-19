@@ -1,2 +1,221 @@
-.footer {
+/* Basic Styles */
+footer {
+    background-color: #121212;
+    color: var(--color-white);
+    padding: 40px 20px 20px;
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding: 32px 32px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    footer {
+        padding: 64px 128px 0;
+    }
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer Content */
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 48px;
+}
+
+@media (min-width: 767px) {
+    .footer__content {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 110px;
+    }
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 767px) {
+    .footer__logo {
+        margin-bottom: 32px;
+    }
+}
+
+.footer__logo__text {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.36;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.footer__logo-highlight {
+    color: var(--color-green);
+}
+
+.footer__address {
+    margin-bottom: 40px;
+}
+
+.footer__address__list {
+    list-style: none;
+    padding: 0;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__address--phone,
+.footer__address--address--text {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
+}
+
+.footer__address--phone--link,
+.footer__address--address--text--second-line {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+.footer__social--and--links {
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .footer__social--and--links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer__social--and--links {
+        gap: 290px;
+    }
+}
+
+.footer__links--list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__links__list--item {
+    margin-bottom: 10px;
+}
+
+.footer__links--link {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+.footer__links--link:hover {
+    color: var(--color-green);
+}
+
+.footer__social--icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__social--icons--link {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    display: flex;
+}
+
+.footer__social--icon {
+    width: 26px;
+    height: 26px;
+    fill: var(--color-white);
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .footer__social--icon {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Footer Bottom */
+.footer__bottom {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .footer__bottom {
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer__bottom {
+        padding: 23px 0;
+    }
+}
+
+.footer__bottom p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
+}
+
+.footer__bottom--links {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+@media (min-width: 768px) {
+    .footer__bottom--links {
+        margin-top: unset;
+    }
+}
+
+.footer__bottom--links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
 }

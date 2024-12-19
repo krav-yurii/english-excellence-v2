@@ -154,8 +154,137 @@
   transform: scale(1.1);
 }
 
+.header__menu-icon {
+  width: 32px;
+  height: 32px;
+  stroke: var(--color-black);
+}
+
+@media screen and (max-width: 1280px) {
+  .header__menu-icon {
+    width: 40px;
+    height: 28px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .header__menu-button {
     display: none;
   }
+}
+
+/* Mobile Menu container */
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 64vw;
+  height: 100%;
+  padding: 20px;
+  background-color: var(--color-green);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform var(--transition-dur-and-func);
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    width: 50vw;
+  }
+}
+
+.menu-container.menu-is-open {
+  transform: translateX(0);
+}
+
+.menu-close__button {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  outline: transparent;
+  fill: var(--color-white);
+  background-color: transparent;
+  border: none;
+  transition: transform var(--transition-dur-and-func);
+}
+
+.menu-close__button:hover {
+  transform: scale(1.1);
+}
+
+.menu__nav {
+  margin-top: 35vh;
+}
+
+.menu__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.menu__nav-link {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28em;
+  color: var(--color-white);
+  transition: color var(--transition-dur-and-func);
+}
+
+.menu__nav-link:hover {
+  color: var(--color-green-pseudo);
+}
+
+.menu__socials-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.menu__socials-item {
+  width: 44px;
+  height: 44px;
+  transition:
+    background-color var(--transition-dur-and-func),
+    border var(--transition-dur-and-func);
+}
+
+.menu__socials-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--color-white);
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu__socials-link:hover,
+.menu__socials-link:focus {
+  border-radius: 10px;
+  background-color: var(--color-white);
+  transition:
+    border-radius var(--transition-dur-and-func),
+    background-color var(--transition-dur-and-func);
+}
+
+.menu__socials-link:hover .menu__socials-icon,
+.menu__socials-link:focus .menu__socials-icon {
+  fill: var(--color-green);
+  transition: fill var(--transition-dur-and-func);
 }

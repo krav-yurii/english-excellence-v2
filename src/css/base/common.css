@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
@@ -26,4 +30,27 @@ body {
   .container {
     max-width: 1024px;
   }
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(17, 21, 24, 0.3);
+  transition:
+    opacity var(--transition-dur-and-func),
+    visibility var(--transition-dur-and-func);
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.backdrop-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: all var(--transition-dur-and-func);
 }
