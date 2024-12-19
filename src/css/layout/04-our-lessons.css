@@ -21,7 +21,7 @@
   left: 63px;
   width: 116px;
   height: 12px;
-  background-color: var(--color-light-green);
+  background-color: var(--color-green-pseudo);
   z-index: -1;
   border-radius: 8px;
 }
@@ -90,6 +90,7 @@
 }
 
 .plan__button {
+  display: inline-block;
   background-color: var(--color-green);
   color: var(--color-white);
   padding: 14px 18%;
