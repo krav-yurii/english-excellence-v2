@@ -86,7 +86,6 @@ footer {
 
 .footer__address--phone--link,
 .footer__address--address--text--second-line {
-    font-family: 'Manrope', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -134,11 +133,7 @@ footer {
 }
 
 .footer__links--link:hover {
-    color: #4caf50;
-}
-
-.footer__social {
-
+    color: var(--color-green);
 }
 
 .footer__social--icons {
