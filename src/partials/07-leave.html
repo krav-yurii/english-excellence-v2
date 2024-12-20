@@ -1,1 +1,70 @@
-<section class="leave__section">Leave</section>
+<section class="leave__section">
+  <div class="container">
+    <!-- title -->
+    <div class="leave__title--block">
+      <h2 class="leave__title">Leave an <span class="leave__title--highlight">application</span></h2>
+      <p class="leave__title--description">
+        Please use the form below to contact us. Enter your name, email, 
+        <br />and message and we'll get back to you shortly.
+      </p>
+    </div>
+    <div class="leave__main--block">
+    <!-- left -->
+    <div class="leave__left--block">
+      <img class="leave__left--img" 
+        srcset="./img/leave-desktop-1x.png 1x, 
+        ./img/leave-desktop-2x.png 2x"
+        src="./img/leave-desktop-1x.png"
+        alt="" />
+      <div class="leave__left--description">
+        <span class="leave__left--description-number">1000</span>
+        of our online English language lessons! This journey has been full of discovery, growth and unforgettable moments, and we are happy to share this joyful event with you.
+      </div>        
+    </div>
+    <!-- right -->
+    <div class="leave__right--block">
+      <form class="leave__right__form" name="leave-form">
+        <div class="leave__right__form--wrapper">
+          <div class="leave__right__form--field">
+            <input class="leave__right__form--input" type="text" id="user-name" name="user-name" placeholder="Name"/>
+          </div>
+          <div class="leave__right__form--field">
+            <input class="leave__right__form--input" type="text" id="user-phone" name="user-phone" placeholder="Email"/>
+          </div> 
+          <div class="leave__right__form--field">
+            <input class="leave__right__form--input" type="text" id="user-email" name="user-email" placeholder="Phone"/>
+          </div>
+          <div class="leave__right__form--field">
+            <textarea class="leave__right__form--textarea" id="user-comment" name="user-comment" placeholder="Comment"></textarea>
+          </div>
+        </div>
+        <fieldset class="leave__right__form--radio-fieldset">
+          <legend class="leave__right__form--radio-legend">Choose a teacher</legend>
+          <div>
+            <input class="leave__right__form--radio-input" type="radio" id="user-teacher-maria" name="user-teacher" value="Maria" checked />
+            <label class="leave__right__form--radio-label" for="user-teacher-maria">Maria</label>
+          </div>
+          <div>
+            <input class="leave__right__form--radio-input" type="radio" id="user-teacher-artem" name="user-teacher" value="Artem" />
+            <label class="leave__right__form--radio-label" for="user-teacher-artem">Artem</label>
+          </div>
+          <div>
+            <input class="leave__right__form--radio-input" type="radio" id="user-teacher-ilona" name="user-teacher" value="Ilona" />
+            <label class="leave__right__form--radio-label" for="user-teacher-ilona">Ilona</label>
+          </div>
+          <div>
+            <input class="leave__right__form--radio-input" type="radio" id="user-teacher-volodymyr" name="user-teacher" value="Volodymyr" />
+            <label class="leave__right__form--radio-label" for="user-teacher-volodymyr">Volodymyr</label>
+          </div>
+        </fieldset>
+        <button class="leave__right__form--btn">Send</button>
+        <p class="leave__right__form--bottom-txt">
+          By clicking on “Send” button, you agree to our <span class="leave__right__form--bottom-txt-pp">Privacy Policy</span>,
+          <br /> 
+        and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+    </div>
+  </div>
+</section>
