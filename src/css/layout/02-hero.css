@@ -7,6 +7,7 @@
 
 .hero__section > .container {
   color: var(--color-white);
+  max-width: 1200px;
 }
 
 .hero__section > .container > .hero__container_wrapper {
@@ -157,6 +158,7 @@
   height: 38px;
   border-radius: 50%;
   background: var(--color-white);
+  outline: none;
 }
 
 @media (min-width: 768px) {
@@ -170,4 +172,12 @@
 
 .hero__anchor_scroll > svg {
   fill: var(--color-green);
+}
+.hero__anchor_scroll:hover,
+.hero__anchor_scroll:focus {
+  background: var(--color-green);
+}
+.hero__anchor_scroll:hover > svg,
+.hero__anchor_scroll:focus > svg {
+  fill: var(--color-white);
 }
