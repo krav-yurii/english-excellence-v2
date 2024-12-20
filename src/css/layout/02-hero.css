@@ -7,6 +7,7 @@
 
 .hero__section > .container {
   color: var(--color-white);
+  max-width: 1200px;
 }
 
 .hero__section > .container > .hero__container_wrapper {
