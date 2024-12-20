@@ -17,6 +17,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   height: 709px;
   border-radius: 16px;
   background-image: linear-gradient(
@@ -39,7 +40,11 @@
       url('../../img/hero-mobile-2x.jpg');
   }
 }
-
+@media (min-width: 375px) {
+  .hero__section > .container > .hero__container_wrapper {
+    width: 335px;
+  }
+}
 @media (min-width: 768px) {
   .hero__section > .container > .hero__container_wrapper {
     padding: 0 32px;
