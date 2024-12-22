@@ -17,8 +17,8 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <title>English Excellence V2</title>
-    <script type="module" crossorigin src="/english-excellence-v2/assets/index-qNeveEIC.js"></script>
-    <link rel="stylesheet" crossorigin href="/english-excellence-v2/assets/index-D7b-9pAB.css">
+    <script type="module" crossorigin src="/english-excellence-v2/assets/index-CUL_zWjL.js"></script>
+    <link rel="stylesheet" crossorigin href="/english-excellence-v2/assets/index-DHRqnscA.css">
   </head>
   <body>
     <header>
@@ -102,7 +102,7 @@
       <svg
         class="header__menu-icon"
         width="32"
-        height="32"
+        height="23"
         stroke="var(--color-black)"
         role="img"
       >
@@ -466,24 +466,30 @@
             type="text"
             name="user-name"
             placeholder="Name"
+            required
           />
           <input
             class="leave__form-input"
             type="email"
             name="user-email"
             placeholder="Email"
+            required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           />
           <input
             class="leave__form-input"
             type="tel"
             name="user-phone"
             placeholder="Phone"
+            required
+            pattern="^\+?[0-9\s\-()]{7,15}$"
           />
           <textarea
             class="leave__form-input teaxtarea-input"
             name="user-comment"
             placeholder="Comment"
             rows="4"
+            required
           ></textarea>
         </div>
         <fieldset class="leave__radio-group">
@@ -642,9 +648,13 @@
             </li>
             <li class="footer__address__item">
               <p class="footer__address--address--text">Address:</p>
-              <p class="footer__address--address--text--second-line">
-                32a M. Bazhana ave
-              </p>
+              <a
+                class="footer__address--link"
+                href="https://www.google.com/maps/search/32a+M.+Bazhana+ave/@50.394519,30.6064191,17z/data=!3m1!4b1!5m1!1e4?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                >32a M. Bazhana ave</a
+              >
             </li>
           </ul>
         </div>
