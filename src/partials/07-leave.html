@@ -25,24 +25,30 @@
             type="text"
             name="user-name"
             placeholder="Name"
+            required
           />
           <input
             class="leave__form-input"
             type="email"
             name="user-email"
             placeholder="Email"
+            required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           />
           <input
             class="leave__form-input"
             type="tel"
             name="user-phone"
             placeholder="Phone"
+            required
+            pattern="^\+?[0-9\s\-()]{7,15}$"
           />
           <textarea
             class="leave__form-input teaxtarea-input"
             name="user-comment"
             placeholder="Comment"
             rows="4"
+            required
           ></textarea>
         </div>
         <fieldset class="leave__radio-group">

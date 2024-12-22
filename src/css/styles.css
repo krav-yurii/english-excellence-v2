@@ -1,5 +1,4 @@
 @import url('./base/colors.css');
-@import url('./base/common.css');
 
 @import url('./utils/reset.css');
 
@@ -12,3 +11,4 @@
 @import url('./layout/07-leave.css');
 @import url('./layout/08-reviews.css');
 @import url('./layout/09-footer.css');
+@import url('./base/common.css');
