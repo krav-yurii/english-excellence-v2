@@ -66,6 +66,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .leave__section {
+    padding: 0px 32px;
+    margin-bottom: 100px;
+  }
   .leave__text {
     max-width: 586px;
     margin: 0 auto 64px;
@@ -75,6 +79,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .leave__section {
+    padding: 0 128px;
+    margin-bottom: 150px;
+  }
   .leave__text {
     max-width: 709px;
   }

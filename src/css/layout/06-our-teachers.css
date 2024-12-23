@@ -1,7 +1,8 @@
 .our__teachers {
     text-align: center;
     letter-spacing: -0.02em;
-    padding: 80px 20px;
+    padding: 0px 20px;
+    margin-bottom: 80px;
 }
 
 .teachers__title {
@@ -80,6 +81,10 @@
 }
 
 @media (min-width: 768px) {
+    .our__teachers {
+        padding: 0px 32px;
+        margin-bottom: 100px;
+    }
     .teachers__list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -120,6 +125,10 @@
 }
 
 @media (min-width: 1280px) {
+    .our__teachers {
+        padding: 0 128px;
+        margin-bottom: 150px;
+    }
 
     .teachers__title {
         line-height: 48px;

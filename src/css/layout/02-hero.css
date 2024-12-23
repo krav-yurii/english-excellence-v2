@@ -2,8 +2,8 @@
 .hero__section {
   display: flex;
   justify-items: center;
-  margin: 8px 0 80px;
-  padding: 0 8px;
+  padding: 0 20px;
+  margin-bottom: 80px;
 }
 
 .hero__section > .container {
@@ -110,6 +110,10 @@
 }
 
 @media (min-width: 768px) {
+  .hero__section  {
+    padding: 0 32px;
+    margin-bottom: 100px;
+  }
   .hero__title {
     padding-top: 260px;
     margin-bottom: 32px;
@@ -120,6 +124,11 @@
 }
 
 @media (min-width: 1280px) {
+  .hero__section  {
+    padding: 0 64px;
+    margin-bottom: 96px;
+  }
+
   .hero__title {
     padding-top: 164px;
     max-width: 564px;
