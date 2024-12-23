@@ -115,7 +115,6 @@
 }
 
 @media (min-width: 375px) {
-
   .plan {
     width: 336px;
     height: 400px;
@@ -129,7 +128,7 @@
 
 @media (min-width: 768px) {
   .lessons {
-   padding: 0 32px;
+    padding: 0 32px;
     margin-bottom: 100px;
   }
   .lessons__plans {
@@ -180,7 +179,6 @@
   .lessons__title {
     line-height: 48px;
   }
-
 
   .lessons__plans {
     grid-template-columns: repeat(3, 1fr);
