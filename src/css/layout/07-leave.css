@@ -164,6 +164,7 @@
 
 .leave__radio {
   position: relative;
+  text-align: left;
 }
 
 .leave__radio-input {
