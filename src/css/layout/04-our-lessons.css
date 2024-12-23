@@ -2,7 +2,8 @@
 .lessons {
   text-align: center;
   letter-spacing: -0.02em;
-  padding: 40px 20px;
+  padding: 0 20px;
+  margin-bottom: 80px;
 }
 
 .lessons__title {
@@ -114,7 +115,6 @@
 }
 
 @media (min-width: 375px) {
-
   .plan {
     width: 336px;
     height: 400px;
@@ -128,8 +128,8 @@
 
 @media (min-width: 768px) {
   .lessons {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 0 32px;
+    margin-bottom: 100px;
   }
   .lessons__plans {
     grid-template-columns: repeat(2, 1fr);
@@ -172,14 +172,13 @@
 
 @media (min-width: 1280px) {
   .lessons {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    margin-bottom: 150px;
+    padding: 0 128px;
   }
 
   .lessons__title {
     line-height: 48px;
   }
-
 
   .lessons__plans {
     grid-template-columns: repeat(3, 1fr);
