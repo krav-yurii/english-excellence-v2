@@ -41,6 +41,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    gap: 32px;
 }
 
 .teacher {
@@ -66,7 +67,6 @@
     font-size: 14px;
     margin-bottom: auto;
     line-height: 24px;
-    margin: 40px 16px 20px 16px;
 }
 
 @media (min-width: 375px) {
@@ -74,8 +74,8 @@
         left: 140px;
     }
     .teacher {
-        width: 336px;
-        height: 400px;
+        width: 335px;
+        height: 270px;
     }
 }
 
@@ -107,15 +107,15 @@
         margin: 0 auto 64px;
     }
     .teacher {
-        width: 336px;
-        height: 404px;
+        width: 272px;
+        height: 318px;
     }
     .teacher__name {
         margin-top: 16px;
     }
     .teacher__description {
         font-size: 16px;
-        margin-top: 32px;
+        margin-top: 8px;
     }
 }
 
@@ -140,8 +140,7 @@
     }
 
     .teacher {
-        width: 280px;
-        height: 404px;
+        width: 232px;
     }
 
     .teacher__description {
